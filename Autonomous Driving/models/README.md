@@ -88,5 +88,5 @@ The models can be freely used. We kindly ask to cite the following paper:
 
 ## Questions?
 
-Please reach to out to Hazem Torfah (hazemto@chalmers.se)! 
+Please reach out to Hazem Torfah (hazemto@chalmers.se)! 
 
