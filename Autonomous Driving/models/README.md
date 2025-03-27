@@ -61,23 +61,30 @@ def _front_cam_callback(self,image):
 
 ## Citation
 
-If you find this work is helpful in your research, please cite our work:
+The models can be freely used. We kindly ask to cite the following paper:
 
 ```
-@inproceedings{torfah2023monitor,
-    author="Torfah, Hazem
-    and Joshi, Aniruddha
-    and Shah, Shetal
-    and Akshay, S.
-    and Chakraborty, Supratik
-    and Seshia, Sanjit A.",
-    editor="Katsaros, Panagiotis
-    and Nenzi, Laura",
-    title="Learning Monitor Ensembles for Operational Design Domains",
-    booktitle="Runtime Verification",
-    year="2023",
-    publisher="Springer Nature Switzerland",
-    pages="271--290",
-    isbn="978-3-031-44267-4"
+@inproceedings{DBLP:conf/atva/TorfahXJVS22,
+  author       = {Hazem Torfah and
+                  Carol Xie and
+                  Sebastian Junges and
+                  Marcell Vazquez{-}Chanlatte and
+                  Sanjit A. Seshia},
+  editor       = {Ahmed Bouajjani and
+                  Luk{\'{a}}s Hol{\'{\i}}k and
+                  Zhilin Wu},
+  title        = {Learning Monitorable Operational Design Domains for Assured Autonomy},
+  booktitle    = {Automated Technology for Verification and Analysis - 20th International
+                  Symposium, {ATVA} 2022, Virtual Event, October 25-28, 2022, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {13505},
+  pages        = {3--22},
+  publisher    = {Springer},
+  year         = {2022},
+  url          = {https://doi.org/10.1007/978-3-031-19992-9\_1},
+  doi          = {10.1007/978-3-031-19992-9\_1},
+  timestamp    = {Mon, 05 Feb 2024 20:35:20 +0100},
+  biburl       = {https://dblp.org/rec/conf/atva/TorfahXJVS22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
