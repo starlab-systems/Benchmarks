@@ -85,3 +85,8 @@ The models can be freely used. We kindly ask to cite the following paper:
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
+
+## Questions?
+
+Please reach to out to Hazem Torfah (hazemto@chalmers.se)! 
+
