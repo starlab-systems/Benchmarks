@@ -1,14 +1,11 @@
 # Lane Keeping models
 
-This folder contains two sets of models trained to keep an autonomous car centered in a lane and the code used to define and train the models. The models were trained over data collected using the Carla simulator (https://carla.org/) and Scenic (https://docs.scenic-lang.org/en/latest/quickstart.html) to generate scenarios.
+This folder contains two sets of models (biased and generic) and the code used to define and train the models. The models were trained over data collected using the Carla simulator (https://carla.org/). We use Scenic (https://docs.scenic-lang.org/en/latest/quickstart.html) to generate scenarios.
 
 The models receive as input images of the road in front of the car and a value indicating if the car has to turn (-1=left, 0=straight, 1=right). The output is the CTE (cross track error), which can then be provided to a PID controller to keep the car centered in a lane.  
 
-The two sets are in the folders:
 - **Biased** (12 models): Each model is trained only on images of specific weather and light conditions, defined by the Carla weather presets. For example, ```model_clearnoon.pth``` is trained only on images of the ClearNoon weather preset.
 - **Generic** (15 models): Each model is trained on a set of images collected from the 14 Carla weather presets. The training datasets used were disjoint.
-
-Paper: [Learning Monitor Ensembles for Operational Design Domains](https://link.springer.com/chapter/10.1007/978-3-031-44267-4_14), appeared at [Runtime Verification 2023](https://rv23.csd.auth.gr/).
 
 ## How to use the models
 The code used to define and train the models is contained in ```cnn_pytorch.py```. The models can be easily loaded using the following code, where ```model_path``` is the path of the model to be loaded:
