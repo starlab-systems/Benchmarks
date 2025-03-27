@@ -1,6 +1,6 @@
 # Lane Keeping models
 
-This folder contains two sets of models (biased and generic) and the code used to define and train the models. The models were trained over data collected using the Carla simulator (https://carla.org/). We use Scenic (https://docs.scenic-lang.org/en/latest/quickstart.html) to generate scenarios.
+This folder contains two sets of models (biased and generic) and the code used to define and train the models. The models were trained over data collected using the Carla simulator (https://carla.org/). We use Scenic (https://scenic-lang.org) to generate scenarios.
 
 The models receive as input images of the road in front of the car and a value indicating if the car has to turn (-1=left, 0=straight, 1=right). The output is the CTE (cross track error), which can then be provided to a PID controller to keep the car centered in a lane.  
 
