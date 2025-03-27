@@ -5,7 +5,7 @@ This folder contains two sets of models (biased and generic) and the code used t
 The models receive as input images of the road in front of the car and a value indicating if the car has to turn (-1=left, 0=straight, 1=right). The output is the CTE (cross track error), which can then be provided to a PID controller to keep the car centered in a lane.  
 
 - **Biased** (12 models): Each model is trained only on images of specific weather and light conditions, defined by the Carla weather presets. For example, ```model_clearnoon.pth``` is trained only on images of the ClearNoon weather preset.
-- **Generic** (15 models): Each model is trained on a set of images collected from the 14 Carla weather presets. The training datasets used were disjoint.
+- **Generic** (15 models): Each model is trained on a set of images collected randomly from the 14 Carla weather presets. The training datasets used were disjoint.
 
 ## How to use the models
 The code used to define and train the models is contained in ```cnn_pytorch.py```. The models can be easily loaded using the following code, where ```model_path``` is the path of the model to be loaded:
