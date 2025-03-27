@@ -61,7 +61,7 @@ def _front_cam_callback(self,image):
 The models can be freely used. We kindly ask to cite the following paper:
 
 ```
-@inproceedings{DBLP:conf/atva/TorfahXJVS22,
+@inproceedings{TorfahXJVS22,
   author       = {Hazem Torfah and
                   Carol Xie and
                   Sebastian Junges and
